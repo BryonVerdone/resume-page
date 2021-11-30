@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.content-center {
+  max-width: 1400px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin: auto auto;
+}
+/* 
+==========
+Left section
+==========
+*/
+.content-left {
+  /* width: 300px; */
+
+  background: blue;
+}
+.left-container {
+  width: 100%;
+}
+.img-container {
+  width: 100%;
+}
+img {
+  width: 100%;
+  object-fit: fill;
+}
+.info-text {
+  width: 50%;
+}
+/* 
+==========
+Right section
+==========
+*/
+.content-right {
+  /* width: 66.66%; */
+
+  background: red;
+}
+.work {
+  margin: auto auto;
+}
+/* 
+==========
+Footer
+==========
+*/
+
+footer {
+  text-align: center;
+  background: #009688;
+  padding: 3rem;
+}
